@@ -4,7 +4,8 @@
   "description": "The application is a Book Review Platform where the users can review and rate books.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/githubscientist/fsd56wee-be/issues"
   },
-  "homepage": "https://github.com/githubscientist/fsd56wee-be#readme"
+  "homepage": "https://github.com/githubscientist/fsd56wee-be#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.4"
+  }
 }
