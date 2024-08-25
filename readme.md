@@ -103,7 +103,7 @@ Rating:
 
 ### Authentication Endpoints
 
-[ ] POST /api/v1/auth/register : Register a new user  
+[x] POST /api/v1/auth/register : Register a new user  
 [ ] POST /api/v1/auth/login : Login a user  
 [ ] GET /api/v1/auth/logout : Logout a user  
 [ ] GET /api/v1/auth/me : Get current user

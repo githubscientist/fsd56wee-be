@@ -6,7 +6,6 @@ const userController = require('../controllers/userController');
 const userRouter = express.Router();
 
 // define the routes
-userRouter.get('/', userController.test);
 
 // export the router
 module.exports = userRouter;
