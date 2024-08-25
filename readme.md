@@ -103,53 +103,53 @@ Rating:
 
 ### Authentication Endpoints
 
-- POST /api/v1/auth/register : Register a new user
-- POST /api/v1/auth/login : Login a user
-- GET /api/v1/auth/logout : Logout a user
-- GET /api/v1/auth/me : Get current user
+[ ] POST /api/v1/auth/register : Register a new user  
+[ ] POST /api/v1/auth/login : Login a user  
+[ ] GET /api/v1/auth/logout : Logout a user  
+[ ] GET /api/v1/auth/me : Get current user
 
 ### User Endpoints
 
-- GET /api/v1/profile : Get user profile
-- PUT /api/v1/profile : Update user profile
-- DELETE /api/v1/profile : Delete user account
-- GET /api/v1/profile/reviews : Get all reviews by user
-- GET /api/v1/profile/ratings : Get all ratings by user
-- GET /api/v1/books : Get all books
-- GET /api/v1/books/:id : Get book by id
+[ ] GET /api/v1/profile : Get user profile  
+[ ] PUT /api/v1/profile : Update user profile  
+[ ] DELETE /api/v1/profile : Delete user account  
+[ ] GET /api/v1/profile/reviews : Get all reviews by user  
+[ ] GET /api/v1/profile/ratings : Get all ratings by user  
+[ ] GET /api/v1/books : Get all books  
+[ ] GET /api/v1/books/:id : Get book by id
 
 ### Admin Endpoints
 
 #### Manage Users
 
-- POST /api/v1/admin/users : Add a new user
-- GET /api/v1/admin/users : Get all users
-- GET /api/v1/admin/users/:id : Get user by id
-- PUT /api/v1/admin/users/:id : Update user by id
-- DELETE /api/v1/admin/users/:id : Delete user by id
+[ ] POST /api/v1/admin/users : Add a new user  
+[ ] GET /api/v1/admin/users : Get all users  
+[ ] GET /api/v1/admin/users/:id : Get user by id  
+[ ] PUT /api/v1/admin/users/:id : Update user by id  
+[ ] DELETE /api/v1/admin/users/:id : Delete user by id
 
 #### Manage Books
 
-- GET /api/v1/admin/books : Get all books
-- POST /api/v1/admin/books : Add a new book
-- GET /api/v1/admin/books/:id : Get book by id
-- PUT /api/v1/admin/books/:id : Update book by id
-- DELETE /api/v1/admin/books/:id : Delete book by id
+[ ] GET /api/v1/admin/books : Get all books  
+[ ] POST /api/v1/admin/books : Add a new book  
+[ ] GET /api/v1/admin/books/:id : Get book by id  
+[ ] PUT /api/v1/admin/books/:id : Update book by id  
+[ ] DELETE /api/v1/admin/books/:id : Delete book by id
 
 #### Manage Reviews
 
-- GET /api/v1/admin/reviews : Get all reviews
-- GET /api/v1/admin/reviews/:id : Get review by id
-- DELETE /api/v1/admin/reviews/:id : Delete review by id
-- PUT /api/v1/admin/reviews/:id : Update review by id
-- GET /api/v1/admin/reviews/book/:id : Get all reviews for a book
-- GET /api/v1/admin/reviews/user/:id : Get all reviews by a user
+[ ] GET /api/v1/admin/reviews : Get all reviews  
+[ ] GET /api/v1/admin/reviews/:id : Get review by id  
+[ ] DELETE /api/v1/admin/reviews/:id : Delete review by id  
+[ ] PUT /api/v1/admin/reviews/:id : Update review by id  
+[ ] GET /api/v1/admin/reviews/book/:id : Get all reviews for a book  
+[ ] GET /api/v1/admin/reviews/user/:id : Get all reviews by a user
 
 #### Manage Ratings
 
-- GET /api/v1/admin/ratings : Get all ratings
-- GET /api/v1/admin/ratings/:id : Get rating by id
-- DELETE /api/v1/admin/ratings/:id : Delete rating by id
-- PUT /api/v1/admin/ratings/:id : Update rating by id
-- GET /api/v1/admin/ratings/book/:id : Get all ratings for a book
-- GET /api/v1/admin/ratings/user/:id : Get all ratings by a user
+[ ] GET /api/v1/admin/ratings : Get all ratings  
+[ ] GET /api/v1/admin/ratings/:id : Get rating by id  
+[ ] DELETE /api/v1/admin/ratings/:id : Delete rating by id  
+[ ] PUT /api/v1/admin/ratings/:id : Update rating by id  
+[ ] GET /api/v1/admin/ratings/book/:id : Get all ratings for a book  
+[ ] GET /api/v1/admin/ratings/user/:id : Get all ratings by a user
