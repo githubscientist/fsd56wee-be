@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // use the routers
-app.use('/api/v1/admin/users', userRouter);
+app.use('/api/v1/user', userRouter);
 app.use('/api/v1/auth', authRouter);
 
 // export the app

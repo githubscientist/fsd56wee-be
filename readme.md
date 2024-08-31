@@ -110,11 +110,11 @@ Rating:
 
 ### User Endpoints
 
-[ ] GET /api/v1/profile : Get user profile  
-[ ] PUT /api/v1/profile : Update user profile  
-[ ] DELETE /api/v1/profile : Delete user account  
-[ ] GET /api/v1/profile/reviews : Get all reviews by user  
-[ ] GET /api/v1/profile/ratings : Get all ratings by user  
+[x] GET /api/v1/user : Get user account
+[x] PUT /api/v1/user : Update user account
+[x] DELETE /api/v1/user : Delete user account  
+[ ] GET /api/v1/reviews : Get all reviews by user  
+[ ] GET /api/v1/ratings : Get all ratings by user  
 [ ] GET /api/v1/books : Get all books  
 [ ] GET /api/v1/books/:id : Get book by id
 
