@@ -67,7 +67,8 @@ const bookController = {
                 author,
                 genre,
                 description,
-                image
+                image,
+                updated_at: Date.now(),
             });
 
             res.status(200).json({ message: 'Book updated successfully' });

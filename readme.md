@@ -110,11 +110,11 @@ Rating:
 
 ### User Endpoints
 
-[x] GET /api/v1/user : Get user account
-[x] PUT /api/v1/user : Update user account
+[x] GET /api/v1/user : Get user account  
+[x] PUT /api/v1/user : Update user account  
 [x] DELETE /api/v1/user : Delete user account  
-[] GET /api/v1/user/reviews : Get all reviews by user  
-[] POST /api/v1/user/reviews : Add a new review
+[ ] GET /api/v1/user/reviews : Get all reviews by user  
+[ ] POST /api/v1/user/reviews : Add a new review
 [ ] GET /api/v1/user/ratings : Get all ratings by user  
 [ ] GET /api/v1/books : Get all books  
 [ ] GET /api/v1/books/:id : Get book by id
@@ -182,3 +182,25 @@ Example book:
   "image": "https://images-na.ssl-images-amazon.com/images/I/51K84pPwz-L._SX331_BO1,204,203,200_.jpg"
 }
 ```
+
+Sample data for reviews:
+  
+  ```json
+  {
+    "user_id": 1,
+    "book_id": 1,
+    "content": "This is a great book. I highly recommend it."
+  }
+  
+  {
+    "user_id": 2,
+    "book_id": 1,
+    "content": "I didn't like this book. It was boring."
+  }
+  
+  {
+    "user_id": 3,
+    "book_id": 2,
+    "content": "This book is a classic. A must-read for everyone."
+  }
+  ```

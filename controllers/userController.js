@@ -29,6 +29,7 @@ const userController = {
             const user = await User.findById(userId);
 
             user.name = name;
+            user.updated_at = Date.now();
 
             await user.save();
 
