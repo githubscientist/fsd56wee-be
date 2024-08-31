@@ -59,6 +59,10 @@ const authController = {
         });
 
         res.json({ message: 'Login successful' });
+    },
+
+    logout: async (req, res) => {
+        res.clearCookie('token').json({ message: 'Logout successful' });
     }
 }
 
