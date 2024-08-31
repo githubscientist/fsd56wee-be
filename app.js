@@ -3,6 +3,7 @@ const express = require('express');
 const userRouter = require('./routes/userRoutes');
 const authRouter = require('./routes/authRoutes');
 const cookieParser = require('cookie-parser');
+const bookRouter = require('./routes/bookRoutes');
 
 // create a new express app
 const app = express();
@@ -14,8 +15,9 @@ app.use(express.json());
 app.use(cookieParser());
 
 // use the routers
-app.use('/api/v1/user', userRouter);
 app.use('/api/v1/auth', authRouter);
+app.use('/api/v1/user', userRouter);
+app.use('/api/v1/admin/books', bookRouter);
 
 // export the app
 module.exports = app;
