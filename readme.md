@@ -106,7 +106,7 @@ Rating:
 [x] POST /api/v1/auth/register : Register a new user  
 [x] POST /api/v1/auth/login : Login a user  
 [x] GET /api/v1/auth/logout : Logout a user  
-[ ] GET /api/v1/auth/me : Get current user
+[x] GET /api/v1/auth/me : Get current user
 
 ### User Endpoints
 
