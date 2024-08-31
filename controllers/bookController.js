@@ -28,7 +28,7 @@ const bookController = {
         try {
             const books = await Book.find().select('-__v -created_at -updated_at -_id');
 
-            res.status(200).json({ books });
+            res.status(200).json(books);
         } catch (error) {
             res.status(500).json({ message: error.message });
         }
