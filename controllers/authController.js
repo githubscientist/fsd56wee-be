@@ -81,7 +81,7 @@ const authController = {
         const user = await User.findById(userId).select('-password -__v -created_at -updated_at -_id');
 
         res.json(user);
-    }
+    },
 }
 
 module.exports = authController;

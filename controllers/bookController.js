@@ -26,7 +26,7 @@ const bookController = {
     },
     getBooks: async (req, res) => {
         try {
-            const books = await Book.find().select('-__v -created_at -updated_at -_id');
+            const books = await Book.find().select('-__v');
 
             res.status(200).json(books);
         } catch (error) {
@@ -38,7 +38,7 @@ const bookController = {
         try {
             const bookId = req.params.id;
 
-            const book = await Book.findById(bookId).select('-__v -created_at -updated_at -_id');
+            const book = await Book.findById(bookId).select('-__v');
 
             if (!book) {
                 return res.status(404).json({ message: 'Book not found' });

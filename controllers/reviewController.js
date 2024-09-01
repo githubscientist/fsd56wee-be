@@ -83,7 +83,7 @@ const reviewController = {
             const bookId = req.params.id;
 
             // get all reviews with the book id from the database
-            const reviews = await Review.find({ bookId });
+            const reviews = await Review.find({ bookId }).populate('userId', 'username');
 
             // send the reviews as a response
             res.status(200).json(reviews);
